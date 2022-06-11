@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Tracker App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body class="container">
+    
+    <br>
+    <div class="card">
+        <div class="card-header">
+            <h3>Character Quest Log</h3>
+        </div>
+            <div class="card-body">
+                <p>If you're like me and struggle to keep track of all the quests and side characters you have on any particular game, this is a handy little tracker tool
+                    designed to help you remember what you're doing on any given character.
+                </p>
+                <br>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-character-name"><h4>New Character</h4></label>
+                            <input type="text" class="form-control" id="new-character-name">
+                            <br>
+                            <button id="new-character" class="btn btn-info">Create</button>
+
+                            <br><br>
+
+                            <div id="characters">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+    <br>
+    <br>
+
+
+
+    
+    <script src="character.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
